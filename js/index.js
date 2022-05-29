@@ -31,6 +31,7 @@ function insertInfo(file) {
             `);
         });
     } catch(error) {
+        alert("Invalid File");
         console.log("Invalid File");
     }
 }
